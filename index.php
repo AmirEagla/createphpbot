@@ -1,5 +1,5 @@
 <?php
-    define('API_KEY','300135691:AAFEWoZt7SMmFfCyoF_d90xd8G9-d5yXXBw');
+    define('API_KEY','TOKen');
 
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
